@@ -33,6 +33,7 @@
 #define qsubd(x, b) ((x > b) ? b : 0)
 #define qsuba(x, b) ((x > b) ? x - b : 0) // Analog Unsigned subtraction macro. if result <0, then => 0. By Andrew Tuline.
 #define ARRAY_SIZE(A) (sizeof(A) / sizeof((A)[0]))
+#define FOR_i(from, to) for (int i = (from); i < (to); i++)
 
 uint8_t volCountLeft = 0; // Frame counter for storing past volume data
 int lvlLeft = 10;         // Current "dampened" audio level

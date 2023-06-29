@@ -78,6 +78,12 @@ const char s21[] PROGMEM = "fireblu";
 const char s22[] PROGMEM = "BAllS";
 const char s23[] PROGMEM = "sinelon";
 const char s24[] PROGMEM = "twinkle";
+const char s25[] PROGMEM = "twinkle";
+const char s26[] PROGMEM = "twinkle";
+const char s27[] PROGMEM = "twinkle";
+const char s28[] PROGMEM = "twinkle";
+const char s29[] PROGMEM = "twinkle";
+const char s30[] PROGMEM = "twinkle";
 
 const char *const string_table[] PROGMEM = {
     s0,
@@ -105,6 +111,12 @@ const char *const string_table[] PROGMEM = {
     s22,
     s23,
     s24,
+    s25,
+    s26,
+    s27,
+    s28,
+    s29,
+    s30,
 };
 #endif
 
@@ -134,7 +146,13 @@ static PVu allPatterns[] = {
     {18, fillAllYellowGreen},
     {18, fillAllRed},
     {19, strobe},
+    {19, rainbow},
+    {19, cloud},
+    {19, rainbowStripe},
+    {19, confetti},
+    {19, addGlitter},
     {21, fire},
+    {19, ocean},
     {21, fireblu},
     {22, balls},
     {23, sinelon},
